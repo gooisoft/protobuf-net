@@ -77,19 +77,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDto", "MonoDto\MonoDto.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoSerBuilder", "MonoSerBuilder\MonoSerBuilder.csproj", "{023153EE-457C-42AE-AB01-A37A1AB2AFC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net_Phone7", "protobuf-net_Phone7\protobuf-net_Phone7.csproj", "{9308A24C-0A5C-40AE-9767-EBBE54605CA2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableSerializer", "DataTableSerializer\DataTableSerializer.csproj", "{78DC3F04-B2DA-47E6-98BE-84A6223D8FF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net_Portable", "protobuf-net_Portable\protobuf-net_Portable.csproj", "{24AB5D8D-8161-4BA8-B643-BAB10402D766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net_WinRT", "protobuf-net_WinRT\protobuf-net_WinRT.csproj", "{8507284E-1C31-413D-A390-166200FA38D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro_DevRig", "Metro_DevRig\Metro_DevRig.csproj", "{95984397-B365-4C7D-B33E-6ED152CCCF2C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net_IKVM", "protobuf-net_IKVM\protobuf-net_IKVM.csproj", "{7D09CD88-098B-499B-95D2-7394DFBC9B5D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroDto", "MetroDto\MetroDto.csproj", "{ED830391-FFCF-4AA4-B472-A4449BD307B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "precompile", "precompile\precompile.csproj", "{2EA60052-319B-4079-8DA1-4D65853A9A76}"
 EndProject
@@ -101,12 +93,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7754B3
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "precompile.tests", "precompile.tests\precompile.tests.csproj", "{FBD093C6-88A2-4A4B-BBA9-D25691F77DBA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf-net_Phone8", "protobuf-net_Phone8\protobuf-net_Phone8.csproj", "{9FC67A0F-D5D7-4C23-83A2-E910B5BAFF6F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone8Dto", "Phone8Dto\Phone8Dto.csproj", "{689D7F72-200E-40B0-8F0C-4BB029668367}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone8_DevRig", "Phone8_DevRig\Phone8_DevRig.csproj", "{6E0FFEA2-EA77-4003-B86B-54E59244E67B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net45Dto", "Net45Dto\Net45Dto.csproj", "{670F312E-4629-4870-8F63-24504E2A3BB8}"
 EndProject
