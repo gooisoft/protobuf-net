@@ -337,12 +337,12 @@ namespace ProtoBuf.Serializers
         }
     }
    
-    public sealed class ListSerializer<T> : ListSerializer<List<T>, T>
+    sealed class ListSerializer<T> : ListSerializer<List<T>, T>
     {
         protected override List<T> Initialize(List<T> values, ISerializationContext context)
             => values ?? new List<T>();
     }
-    public class ListSerializer<TList, T> : RepeatedSerializer<TList, T>
+    class ListSerializer<TList, T> : RepeatedSerializer<TList, T>
         where TList : List<T>
     {
         protected override TList Initialize(TList values, ISerializationContext context)
