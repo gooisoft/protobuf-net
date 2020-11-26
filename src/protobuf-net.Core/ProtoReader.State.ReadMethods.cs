@@ -196,7 +196,7 @@ namespace ProtoBuf
             }
 
             [MethodImpl(ProtoReader.HotPath)]
-            private void ReadRepeatedCore<TSerializer, TList, T>(ref TList values, SerializerFeatures category, WireType wireType, in TSerializer serializer,
+            public void ReadRepeatedCore<TSerializer, TList, T>(ref TList values, SerializerFeatures category, WireType wireType, in TSerializer serializer,
                 T initialValue)
                 where TSerializer : ISerializer<T>
                 where TList : ICollection<T>

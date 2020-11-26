@@ -11,7 +11,7 @@ namespace ProtoBuf.Internal
 
     // kinda like List<T>, but with some array-pool love
     [StructLayout(LayoutKind.Auto)]
-    internal struct ReadBuffer<T> : IDisposable, ICollection<T>, IReadOnlyCollection<T>, ICollection
+    public struct ReadBuffer<T> : IDisposable, ICollection<T>, IReadOnlyCollection<T>, ICollection
     {
         public void Clear() => _count = 0;
         bool ICollection<T>.IsReadOnly => false;
