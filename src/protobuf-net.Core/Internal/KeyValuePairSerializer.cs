@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 namespace ProtoBuf.Internal
 {
     [StructLayout(LayoutKind.Auto)]
-    internal readonly struct KeyValuePairSerializer<TKey, TValue> : ISerializer<KeyValuePair<TKey, TValue>>
+    public readonly struct KeyValuePairSerializer<TKey, TValue> : ISerializer<KeyValuePair<TKey, TValue>>
     {
         public SerializerFeatures Features => SerializerFeatures.WireTypeString | SerializerFeatures.CategoryMessage;
 
-        internal KeyValuePairSerializer(
+        public KeyValuePairSerializer(
             ISerializer<TKey> keySerializer, SerializerFeatures keyFeatures,
             ISerializer<TValue> valueSerializer, SerializerFeatures valueFeatures)
         {
