@@ -130,7 +130,7 @@ namespace ProtoBuf.Serializers
         }
     }
 
-    sealed class DictionarySerializer<TKey, TValue> : MapSerializer<Dictionary<TKey, TValue>, TKey, TValue>
+    public sealed class DictionarySerializer<TKey, TValue> : MapSerializer<Dictionary<TKey, TValue>, TKey, TValue>
     {
         protected override Dictionary<TKey, TValue> Initialize(Dictionary<TKey, TValue> values, ISerializationContext context)
             => values ?? new Dictionary<TKey, TValue>();
