@@ -161,7 +161,7 @@ namespace ProtoBuf.Serializers
             Write(ref state, fieldNumber, wireType, ref iter, pairSerializer);
         }
     }
-    class DictionarySerializer<TCollection, TKey, TValue> : MapSerializer<TCollection, TKey, TValue>
+    public class DictionarySerializer<TCollection, TKey, TValue> : MapSerializer<TCollection, TKey, TValue>
         where TCollection : IDictionary<TKey, TValue>
     {
         protected override TCollection Initialize(TCollection values, ISerializationContext context)
